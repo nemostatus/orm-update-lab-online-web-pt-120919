@@ -38,7 +38,7 @@ def update
   DB[:conn].execute(sql,self.name,self.grade,self.id)
 end 
 
-def self.find_by_name
+def self.find_by_name(x)
 def save 
   if self.id 
     self.update 
