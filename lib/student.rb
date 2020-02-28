@@ -25,6 +25,7 @@ end
 
 def update 
   sql = "UPDATE students SET name = ?, grade = ?, WHERE ID = ?"
+  DB[:conn].execute(sql)
 end 
  
  def save 
