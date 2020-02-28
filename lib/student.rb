@@ -9,3 +9,4 @@ def initialize(id = nil, name, grade)
   @grade = grade
 end
 
+end 
