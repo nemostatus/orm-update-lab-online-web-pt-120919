@@ -24,6 +24,7 @@ def self.drop_table
 end 
 
 def update 
+  sql =
 end 
  
  def save 
