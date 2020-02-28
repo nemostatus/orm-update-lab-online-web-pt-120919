@@ -56,6 +56,6 @@ def self.find_by_name(name)
   sql = "SELECT * FROM students WHERE name = ?"
   DB[:conn].execute(sql,name).map {|row| new_from_db(row)}.first
 end 
- 
+ def self.create
  
 end 
