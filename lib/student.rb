@@ -4,4 +4,6 @@ class Student
 
 attr_accessor :id, :name, :grade
 
+def initialize()
+
 end
