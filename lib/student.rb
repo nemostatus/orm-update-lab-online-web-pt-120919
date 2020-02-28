@@ -22,6 +22,8 @@ def self.drop_table
   SQL
    DB[:conn].execute(sql)
 end 
+def self.create 
+  
 
 def self.new_from_db(row)
   id = row[0]
