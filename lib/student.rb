@@ -29,6 +29,7 @@ def update
 end 
 
 def save 
-   
+  if self.id 
+    self.update 
  end 
 end 
