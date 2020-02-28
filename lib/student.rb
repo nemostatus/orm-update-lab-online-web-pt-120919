@@ -18,7 +18,7 @@ def self.create_table
 end 
 
 def self.drop_table 
-  DB[:conn].execute("DROP TABLE IF NOT EXISTS students")
+  DB[:conn].execute("DROP TABLE IF EXISTS students")
 end 
 def self.create(name:,grade:)
   student = Student.new(name,grade)
