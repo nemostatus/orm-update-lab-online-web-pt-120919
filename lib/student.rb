@@ -23,7 +23,7 @@ def self.drop_table
    DB[:conn].execute(sql)
 end 
 def self.create(:name,:grade)
-  student = Student.new
+  student = Student.new(name,grade)
   
 end 
 
