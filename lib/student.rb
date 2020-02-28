@@ -23,7 +23,7 @@ def self.drop_table
    DB[:conn].execute(sql)
 end 
 
-def self.new_from_db
+def self.new_from_db(row)
 
 def update 
   sql = "UPDATE students SET name = ?, grade = ?, WHERE ID = ?"
