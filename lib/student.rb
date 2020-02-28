@@ -26,6 +26,7 @@ end
 def self.new_from_db(row)
   id = row[0]
   name = row[1]
+  
 end 
 
 def update 
