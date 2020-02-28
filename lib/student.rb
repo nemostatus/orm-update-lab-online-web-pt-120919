@@ -23,6 +23,8 @@ def self.drop_table
    DB[:conn].execute(sql)
 end 
 
+def self.new_from_db
+
 def update 
   sql = "UPDATE students SET name = ?, grade = ?, WHERE ID = ?"
   DB[:conn].execute(sql,self.name,self.grade,self.id)
