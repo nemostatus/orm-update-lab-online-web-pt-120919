@@ -24,6 +24,8 @@ def self.drop_table
 end 
 
 def self.new_from_db(row)
+  
+end 
 
 def update 
   sql = "UPDATE students SET name = ?, grade = ?, WHERE ID = ?"
