@@ -11,7 +11,7 @@ end
 
 def self.create_table
   sql = <<-SQL 
-  CREATE TABLE IF NOT EXISTS students(id INTERGER PRIMARY KEY, name TEXT, grade )
+  CREATE TABLE IF NOT EXISTS students(id INTERGER PRIMARY KEY, name TEXT, grade INTEGER)
 end 
 
 end 
