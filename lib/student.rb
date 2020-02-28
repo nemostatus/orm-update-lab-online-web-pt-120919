@@ -24,7 +24,7 @@ def self.drop_table
 end 
 
 def update 
-  sql = 
+  sql = "UPDATE students WHERE"
 end 
  
  def save 
