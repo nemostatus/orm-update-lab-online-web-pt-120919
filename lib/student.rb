@@ -40,7 +40,7 @@ end
 
 def self.find_by_name(name)
   sql = "SELECT * FROM students WHERE name = ?"
-  DB[:conn].execute(sql,name).map
+  DB[:conn].execute(sql,name).map {
   
 def save 
   if self.id 
