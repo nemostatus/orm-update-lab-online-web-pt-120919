@@ -36,6 +36,7 @@ def save
   INSERT INTO students (name,grade)
   VALUES(?,?)
   SQL
-DB[:conn].execute(sql,self.name,self.grade)    
+DB[:conn].execute(sql,self.name,self.grade)
+@id =
  end 
 end 
