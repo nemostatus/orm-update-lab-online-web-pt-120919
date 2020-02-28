@@ -39,7 +39,7 @@ def update
 end 
 
 def self.find_by_name(name)
-  sql = SELECT * FROM WHERE name = ?
+  sql = SELECT * FROM students WHERE name = ?
   
 def save 
   if self.id 
