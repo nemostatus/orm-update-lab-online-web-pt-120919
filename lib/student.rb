@@ -36,6 +36,6 @@ def save
   INSERT INTO students (name,grade)
   VALUES(?,?)
   SQL
-DB[:conn].execute    
+DB[:conn].execute(sql,)    
  end 
 end 
