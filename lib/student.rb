@@ -39,6 +39,7 @@ def update
 end 
 
 def self.find_by_name(x)
+  sql = <<-SQL
 def save 
   if self.id 
     self.update 
