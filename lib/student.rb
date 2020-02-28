@@ -32,7 +32,7 @@ def save
   if self.id 
     self.update 
   else 
-  
+  sql = <<-
     
  end 
 end 
